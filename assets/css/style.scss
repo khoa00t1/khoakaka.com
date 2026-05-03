@@ -1,0 +1,11 @@
+---
+# Intentionally empty.
+#
+# The `github-pages` gem implicitly bundles `jekyll-theme-primer`, which ships
+# its own `assets/css/style.scss`. Our site doesn't link to it, but the gem
+# would still emit ~76 KB of unused CSS into `_site/assets/css/style.css`.
+# Defining an empty file at the same path locally shadows the theme version
+# so the build artifact stays small.
+#
+# Our actual styles live in `assets/css/main.scss`.
+---

@@ -1,0 +1,29 @@
+# Primary navigation (top bar)
+primary:
+    - title: Home
+      url: /
+    - title: Products
+      url: /products/
+    - title: About
+      url: /about/
+    - title: Contact
+      url: /contact/
+
+# Footer columns
+footer:
+    - title: Products
+      links:
+          - title: Family Tree
+            url: /products/clan/
+    - title: Legal
+      links:
+          - title: Family Tree — Privacy
+            url: /legal-policies/clan/privacy.html
+          - title: Family Tree — Terms
+            url: /legal-policies/clan/terms.html
+    - title: Company
+      links:
+          - title: About
+            url: /about/
+          - title: Contact
+            url: /contact/

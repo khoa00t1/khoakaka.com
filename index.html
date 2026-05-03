@@ -1,0 +1,59 @@
+---
+layout: default
+title: Khoakaka — Smart Code, Happy Life
+description: Smart Code, Happy Life — apps and tools by Khoakaka, including Family Tree, the genealogy app for extended families and clans.
+permalink: /
+---
+
+<section class="hero">
+    <div class="container hero__inner">
+        <div class="hero__copy">
+            <p class="eyebrow">{{ site.motto }}</p>
+            <h1 class="hero__title">
+                Smart Code, <em>Happy Life.</em>
+            </h1>
+            <p class="hero__lede">
+                {{ site.title }} builds focused mobile apps that help people stay
+                organized, connected, and a little more delighted every day.
+            </p>
+            <div class="hero__cta-row">
+                <a class="btn btn--primary" href="{{ '/products/' | relative_url }}">Explore products</a>
+                <a class="btn btn--ghost" href="{{ '/about/' | relative_url }}">About Khoakaka</a>
+            </div>
+        </div>
+
+        <div class="hero__art" aria-hidden="true">
+            <span>K</span>
+        </div>
+    </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="products-heading">
+    <div class="container">
+        <header class="section__header">
+            <p class="eyebrow">Products</p>
+            <h2 id="products-heading">Apps in the Khoakaka family</h2>
+            <p>
+                Each product is designed and shipped with the same idea —
+                small tools that quietly do a lot of work for you.
+            </p>
+        </header>
+
+        <ul class="product-grid">
+            {% for product in site.data.products %}
+                <li>{% include product-card.html product=product %}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="motto-heading">
+    <div class="container section__header">
+        <p class="eyebrow">Our motto</p>
+        <h2 id="motto-heading">Keep Automating, Keep Advancing.</h2>
+        <p>
+            We believe the best apps remove busywork instead of adding it.
+            Every release is a step toward a happier, more automated life.
+        </p>
+    </div>
+</section>

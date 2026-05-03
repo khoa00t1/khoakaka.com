@@ -1,0 +1,27 @@
+---
+layout: default
+title: Products — Khoakaka
+description: All apps and tools by Khoakaka — currently featuring Family Tree.
+permalink: /products/
+---
+
+<section class="hero">
+    <div class="container">
+        <p class="eyebrow">Products</p>
+        <h1 class="hero__title">Apps from Khoakaka</h1>
+        <p class="hero__lede">
+            A small but growing list of tools we build for everyday life.
+            More are on the way.
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <ul class="product-grid">
+            {% for product in site.data.products %}
+                <li>{% include product-card.html product=product %}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

@@ -1,0 +1,34 @@
+# ----------------------------------------------------------------------
+# Family Tree (giapha repo) — extended metadata
+#
+# Mirrors what the spec calls out in section 2.
+# Used by the product page for store buttons, contact, and any in-app links.
+# ----------------------------------------------------------------------
+name: Family Tree
+slug: clan
+internal_name: Clan
+repo: giapha
+
+# Public links — fill in once available
+play_store_url: ""
+app_store_url: ""
+web_app_url: ""
+
+# Public support contact only — never paste private credentials here
+support_email: ""
+
+# In-app legal URLs (must match permalinks of the legal pages)
+privacy_url: /legal-policies/clan/privacy.html
+terms_url: /legal-policies/clan/terms.html
+
+# Stack (for the About page or product details)
+stack:
+    framework: Flutter
+    backend:
+        - Firebase Authentication
+        - Cloud Firestore
+        - Firebase Storage
+    auth_providers:
+        - Google Sign-In
+        - Email / password
+    monetization: In-app subscriptions (RevenueCat)

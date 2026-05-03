@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="legal">
+    <header class="legal__header">
+        <div class="container">
+            <p class="eyebrow">Legal</p>
+            <h1 class="legal__title">{{ page.title }}</h1>
+            {% if page.description %}
+                <p class="legal__lede">{{ page.description }}</p>
+            {% endif %}
+            {% if page.last_updated %}
+                <p class="legal__meta">
+                    Last updated:
+                    <time datetime="{{ page.last_updated | date_to_xmlschema }}">
+                        {{ page.last_updated | date: "%B %-d, %Y" }}
+                    </time>
+                </p>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="container legal__body prose">
+        {{ content }}
+    </div>
+</article>

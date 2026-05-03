@@ -1,0 +1,54 @@
+# ----------------------------------------------------------------------
+# Khoakaka product catalog
+#
+# Add a new entry per product. The `slug` MUST match:
+#   - the product page path (e.g. /products/<slug>/)
+#   - the legal pages path (/legal-policies/<slug>/privacy.html, terms.html)
+#   - any in-app slug (Firestore collection, RevenueCat entitlement, etc.)
+#
+# Leave URLs blank ("") until you have public links to publish.
+# ----------------------------------------------------------------------
+
+- slug: clan
+  name: Family Tree
+  internal_name: Clan
+  tagline: Genealogy for extended families
+  description: >-
+      Build, manage, and share your family tree. Members, relationships,
+      a tree view, multilingual UI, and CSV import — on Android, iOS and Web.
+  url: /products/clan/
+  icon: /assets/images/giapha-icon.svg
+  hero_image: /assets/images/giapha-hero.svg
+  platforms:
+      - Android
+      - iOS
+      - Web
+  play_store_url: ""
+  app_store_url: ""
+  web_app_url: ""
+  support_email: ""
+  features:
+      - title: Clans and roles
+        body: >-
+            Create extended-family clans with role-based permissions for
+            admins, editors and viewers.
+      - title: Member profiles
+        body: >-
+            Rich member records with photos backed by Firebase Storage and
+            relationship links.
+      - title: Tree visualization
+        body: >-
+            Interactive family-tree view that scales from a few members to
+            multi-generation clans.
+      - title: CSV import
+        body: >-
+            Bulk-import members from a spreadsheet and validate before
+            committing changes.
+      - title: Sharing and invites
+        body: >-
+            Invite relatives by email and let everyone contribute under
+            controlled permissions.
+      - title: Multilingual UI
+        body: >-
+            English-first interface with localizations so every branch of
+            the family can read and edit comfortably.

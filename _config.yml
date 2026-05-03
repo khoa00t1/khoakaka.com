@@ -1,0 +1,89 @@
+# ----------------------------------------------------------------------
+# Site identity
+# ----------------------------------------------------------------------
+title: Khoakaka
+tagline: Smart Code, Happy Life
+motto: Keep Automating, Keep Advancing
+description: >-
+    Smart Code, Happy Life — mobile apps and tools by Khoakaka, including
+    Family Tree, the genealogy app for extended families and clans.
+url: "https://khoakaka.com"
+baseurl: ""
+
+author:
+    name: Khoakaka
+    email: ""
+
+lang: en
+timezone: UTC
+
+# ----------------------------------------------------------------------
+# Brand
+# ----------------------------------------------------------------------
+brand:
+    primary: "#C62B48"
+    primary_dark: "#9B1F38"
+    primary_light: "#F5D7DD"
+    accent: "#1F2933"
+    background: "#FFFFFF"
+    surface: "#FAFAFC"
+    text: "#1F2933"
+    text_muted: "#52606D"
+    border: "#E4E7EB"
+
+# ----------------------------------------------------------------------
+# Build settings
+# ----------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# ----------------------------------------------------------------------
+# Plugins (all in the GitHub Pages allowed list)
+# ----------------------------------------------------------------------
+plugins:
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-remote-theme
+
+# ----------------------------------------------------------------------
+# Collections / defaults
+# ----------------------------------------------------------------------
+defaults:
+    - scope:
+          path: ""
+          type: pages
+      values:
+          layout: default
+    - scope:
+          path: "legal-policies"
+      values:
+          layout: legal
+
+# ----------------------------------------------------------------------
+# Exclude from build
+# ----------------------------------------------------------------------
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - website.md
+    - vendor/
+    - node_modules/
+    - "*.code-workspace"
+    - .github/
+
+# ----------------------------------------------------------------------
+# SEO defaults (jekyll-seo-tag)
+# ----------------------------------------------------------------------
+twitter:
+    card: summary_large_image
+
+social:
+    name: Khoakaka
+    links: []

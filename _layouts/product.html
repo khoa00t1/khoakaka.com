@@ -1,0 +1,89 @@
+---
+layout: default
+---
+{%- assign slug = page.product_slug -%}
+{%- assign product = site.data.products | where: "slug", slug | first -%}
+
+<article class="product">
+    <header class="product__hero">
+        <div class="container product__hero-grid">
+            <div class="product__hero-copy">
+                {% if product.tagline %}
+                    <p class="eyebrow">{{ product.tagline }}</p>
+                {% endif %}
+                <h1 class="product__title">{{ product.name | default: page.title }}</h1>
+                {% if product.description %}
+                    <p class="product__lede">{{ product.description }}</p>
+                {% endif %}
+
+                <div class="product__cta-row">
+                    {% if product.web_app_url and product.web_app_url != "" %}
+                        <a class="btn btn--primary"
+                            href="{{ product.web_app_url }}"
+                            target="_blank"
+                            rel="noopener">Open web app</a>
+                    {% endif %}
+                    {% if product.play_store_url and product.play_store_url != "" %}
+                        <a class="btn btn--ghost"
+                            href="{{ product.play_store_url }}"
+                            target="_blank"
+                            rel="noopener">Google Play</a>
+                    {% endif %}
+                    {% if product.app_store_url and product.app_store_url != "" %}
+                        <a class="btn btn--ghost"
+                            href="{{ product.app_store_url }}"
+                            target="_blank"
+                            rel="noopener">App Store</a>
+                    {% endif %}
+                </div>
+
+                <ul class="product__legal-links">
+                    <li>
+                        <a href="{{ '/legal-policies/' | append: slug | append: '/privacy.html' | relative_url }}">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/legal-policies/' | append: slug | append: '/terms.html' | relative_url }}">Terms of Use</a>
+                    </li>
+                </ul>
+            </div>
+
+            {% if page.hero_image %}
+                <figure class="product__hero-figure">
+                    <img src="{{ page.hero_image | relative_url }}"
+                        alt="{{ product.name | default: page.title }} preview"
+                        loading="eager"
+                        decoding="async">
+                </figure>
+            {% endif %}
+        </div>
+    </header>
+
+    <section class="container product__body">
+        {{ content }}
+    </section>
+
+    {% if product.features %}
+        <section class="container product__features">
+            <h2 class="section-title">Features</h2>
+            <ul class="feature-grid">
+                {% for feature in product.features %}
+                    <li class="feature-card">
+                        <h3 class="feature-card__title">{{ feature.title }}</h3>
+                        <p class="feature-card__body">{{ feature.body }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+    {% endif %}
+
+    {% if product.platforms %}
+        <section class="container product__platforms">
+            <h2 class="section-title">Available on</h2>
+            <ul class="pill-list">
+                {% for platform in product.platforms %}
+                    <li class="pill">{{ platform }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+    {% endif %}
+</article>

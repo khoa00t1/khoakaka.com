@@ -1,0 +1,40 @@
+{%- comment -%}
+    Renders a single product card.
+    Usage: {% include product-card.html product=product %}
+{%- endcomment -%}
+<article class="product-card">
+    <a class="product-card__link" href="{{ include.product.url | relative_url }}" aria-label="Open {{ include.product.name }}">
+        {% if include.product.icon %}
+            <div class="product-card__icon">
+                <img src="{{ include.product.icon | relative_url }}"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </div>
+        {% else %}
+            <div class="product-card__icon product-card__icon--placeholder" aria-hidden="true">
+                {{ include.product.name | slice: 0, 1 }}
+            </div>
+        {% endif %}
+
+        <div class="product-card__body">
+            <h3 class="product-card__title">{{ include.product.name }}</h3>
+            {% if include.product.tagline %}
+                <p class="product-card__tagline">{{ include.product.tagline }}</p>
+            {% endif %}
+            {% if include.product.description %}
+                <p class="product-card__description">{{ include.product.description }}</p>
+            {% endif %}
+
+            {% if include.product.platforms %}
+                <ul class="product-card__platforms">
+                    {% for platform in include.product.platforms %}
+                        <li>{{ platform }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+
+        <span class="product-card__cta" aria-hidden="true">Learn more &rarr;</span>
+    </a>
+</article>

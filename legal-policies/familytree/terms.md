@@ -2,7 +2,7 @@
 layout: legal
 title: Terms of Use — Family Tree
 description: Terms governing use of the Family Tree application.
-permalink: /legal-policies/clan/terms.html
+permalink: /legal-policies/familytree/terms.html
 last_updated: 2026-05-03
 sitemap: true
 ---

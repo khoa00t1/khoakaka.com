@@ -2,7 +2,7 @@
 layout: legal
 title: Privacy Policy — Family Tree
 description: How Family Tree collects, uses, and protects your data.
-permalink: /legal-policies/clan/privacy.html
+permalink: /legal-policies/familytree/privacy.html
 last_updated: 2026-05-03
 sitemap: true
 ---

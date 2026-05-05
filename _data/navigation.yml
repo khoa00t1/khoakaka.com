@@ -14,13 +14,13 @@ footer:
     - title: Products
       links:
           - title: Family Tree
-            url: /products/clan/
+            url: /products/familytree/
     - title: Legal
       links:
           - title: Family Tree — Privacy
-            url: /legal-policies/clan/privacy.html
+            url: /legal-policies/familytree/privacy.html
           - title: Family Tree — Terms
-            url: /legal-policies/clan/terms.html
+            url: /legal-policies/familytree/terms.html
     - title: Company
       links:
           - title: About

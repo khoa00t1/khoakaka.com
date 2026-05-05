@@ -19,11 +19,11 @@ permalink: /contact/
     <div class="container prose">
         <h2>Support</h2>
 
-        {% assign giapha = site.data.giapha %}
-        {% if giapha.support_email and giapha.support_email != "" %}
+        {% assign familytree = site.data.familytree %}
+        {% if familytree.support_email and familytree.support_email != "" %}
             <p>
                 Family Tree support:
-                <a href="mailto:{{ giapha.support_email }}">{{ giapha.support_email }}</a>
+                <a href="mailto:{{ familytree.support_email }}">{{ familytree.support_email }}</a>
             </p>
         {% else %}
             <p>
@@ -35,8 +35,8 @@ permalink: /contact/
 
         <h2>Legal</h2>
         <ul>
-            <li><a href="{{ '/legal-policies/clan/privacy.html' | relative_url }}">Family Tree — Privacy Policy</a></li>
-            <li><a href="{{ '/legal-policies/clan/terms.html' | relative_url }}">Family Tree — Terms of Use</a></li>
+            <li><a href="{{ '/legal-policies/familytree/privacy.html' | relative_url }}">Family Tree — Privacy Policy</a></li>
+            <li><a href="{{ '/legal-policies/familytree/terms.html' | relative_url }}">Family Tree — Terms of Use</a></li>
         </ul>
     </div>
 </section>

@@ -38,7 +38,7 @@ GitHub Pages: enable **Settings → Pages → Source** (branch/folder or GitHub 
 
 ## 2. Product: Family Tree (Clan app — this repository)
 
-**Repository / codebase name:** `giapha`  
+**Repository / codebase name:** `familytree`  
 **English product name (web / marketing):** Family Tree — genealogy for extended families and clans  
 
 Store listing titles may use a localized name; keep web copy and this spec in English.
@@ -58,9 +58,9 @@ Store listing titles may use a localized name; keep web copy and this spec in En
 Add when you have public URLs:
 
 ```yaml
-# _data/giapha.yml (example)
+# _data/familytree.yml (example)
 name: Family Tree
-slug: clan
+slug: familytree
 play_store_url: ""   # Google Play listing
 app_store_url: ""    # Apple App Store listing
 web_app_url: ""      # e.g. Firebase Hosting custom domain or *.web.app
@@ -92,13 +92,13 @@ Each **product** gets its own privacy and terms pages (required for store listin
 
 | Document | Suggested public path (under site root) |
 |-----------|----------------------------------------|
-| Family Tree / Clan — Privacy Policy | `/legal-policies/clan/privacy.html` |
-| Family Tree / Clan — Terms of Use | `/legal-policies/clan/terms.html` |
+| Family Tree / Clan — Privacy Policy | `/legal-policies/familytree/privacy.html` |
+| Family Tree / Clan — Terms of Use | `/legal-policies/familytree/terms.html` |
 
 **Jekyll mapping:**
 
-- Files: `legal-policies/clan/privacy.md` and `legal-policies/clan/terms.md` (or `.html` if not using Markdown).
-- Set `permalink: /legal-policies/clan/privacy.html` (and the same pattern for terms) in front matter so URLs match what the app and stores expect.
+- Files: `legal-policies/familytree/privacy.md` and `legal-policies/familytree/terms.md` (or `.html` if not using Markdown).
+- Set `permalink: /legal-policies/familytree/privacy.html` (and the same pattern for terms) in front matter so URLs match what the app and stores expect.
 
 **Future products:** mirror structure, for example `/legal-policies/<product-slug>/privacy.html`.
 
@@ -110,9 +110,9 @@ Each **product** gets its own privacy and terms pages (required for store listin
 |------|--------|
 | `/` | Home — Khoakaka intro, slogan, grid of products with links to each product page. |
 | `/products/` | Optional index of all apps. |
-| `/products/clan/` or `/giapha/` | Family Tree product landing (screenshots, features, store buttons). |
-| `/legal-policies/clan/privacy.html` | Privacy policy (product-specific). |
-| `/legal-policies/clan/terms.html` | Terms of use (product-specific). |
+| `/products/familytree/` | Family Tree product landing (screenshots, features, store buttons). |
+| `/legal-policies/familytree/privacy.html` | Privacy policy (product-specific). |
+| `/legal-policies/familytree/terms.html` | Terms of use (product-specific). |
 | `/about/` | Optional — studio or author story. |
 | `/contact/` | Optional — support email or form link only. |
 
@@ -139,8 +139,8 @@ description: Smart Code, Happy Life — apps and tools by Khoakaka.
 layout: product
 title: Family Tree — Genealogy and clan management
 description: Manage your lineage on mobile and web. Members, tree view, sharing, and more.
-product_slug: clan
-hero_image: /assets/images/giapha-hero.png
+product_slug: familytree
+hero_image: /assets/images/familytree-hero.png
 ---
 ```
 
@@ -151,7 +151,7 @@ hero_image: /assets/images/giapha-hero.png
 layout: legal
 title: Privacy Policy — Family Tree
 description: How Family Tree collects, uses, and protects your data.
-permalink: /legal-policies/clan/privacy.html
+permalink: /legal-policies/familytree/privacy.html
 ---
 ```
 
@@ -162,7 +162,7 @@ permalink: /legal-policies/clan/privacy.html
 layout: legal
 title: Terms of Use — Family Tree
 description: Terms governing use of the Family Tree application.
-permalink: /legal-policies/clan/terms.html
+permalink: /legal-policies/familytree/terms.html
 ---
 ```
 
@@ -183,9 +183,9 @@ When generating the Jekyll repo:
 
 ## 7. Relationship: this repo and the website
 
-- **This repo** (`giapha`): Flutter application source — not the Jekyll site.
+- **This repo** (`familytree`): Flutter application source — not the Jekyll site.
 - **Website repo** (separate): Jekyll plus GitHub Pages at `khoakaka.com` (or GitHub Pages domain until custom DNS).
-- **Cross-link:** Product page on the site links to stores and web app; in-app Privacy and Terms open the `legal-policies/clan/*.html` URLs on the same domain.
+- **Cross-link:** Product page on the site links to stores and web app; in-app Privacy and Terms open the `legal-policies/familytree/*.html` URLs on the same domain.
 
 ---
 

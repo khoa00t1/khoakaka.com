@@ -21,7 +21,7 @@ permalink: /about/
     <div class="container prose">
         <h2>What we make</h2>
         <p>
-            Right now we ship <a href="{{ '/products/clan/' | relative_url }}">Family Tree</a>,
+            Right now we ship <a href="{{ '/products/familytree/' | relative_url }}">Family Tree</a>,
             a genealogy app for extended families and clans. More apps will join the
             list under the same umbrella over time.
         </p>

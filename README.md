@@ -2,7 +2,7 @@
 
 Marketing site for **Khoakaka** — a small studio that ships focused mobile
 apps. The first product on the site is **Family Tree** (internal name `Clan`,
-repository `giapha`).
+repository `familytree`).
 
 The single source of truth for the site's intent is [`website.md`](./website.md).
 
@@ -41,7 +41,7 @@ The site uses only the GitHub Pages allowed plugins:
 ├── _data/                    # YAML data
 │   ├── products.yml          # Product catalog (rendered on home + /products)
 │   ├── navigation.yml        # Header + footer links
-│   └── giapha.yml            # Extra metadata for Family Tree
+│   └── familytree.yml        # Extra metadata for Family Tree
 ├── _includes/                # Reusable HTML fragments
 │   ├── head.html
 │   ├── header.html
@@ -57,12 +57,12 @@ The site uses only the GitHub Pages allowed plugins:
 ├── about/
 ├── contact/
 ├── legal-policies/
-│   └── clan/
-│       ├── privacy.md        # → /legal-policies/clan/privacy.html
-│       └── terms.md          # → /legal-policies/clan/terms.html
+│   └── familytree/
+│       ├── privacy.md        # → /legal-policies/familytree/privacy.html
+│       └── terms.md          # → /legal-policies/familytree/terms.html
 ├── products/
 │   ├── index.html            # Product index
-│   └── clan/index.md         # Family Tree landing
+│   └── familytree/index.md   # Family Tree landing
 ├── 404.html
 ├── CNAME                     # Custom domain
 ├── Gemfile
@@ -82,9 +82,9 @@ store listings. **Do not change them without coordinating with the app.**
 | -------------------------- | -------------------------------------------- |
 | Home                       | `/`                                          |
 | Products index             | `/products/`                                 |
-| Family Tree product page   | `/products/clan/`                            |
-| Family Tree privacy policy | `/legal-policies/clan/privacy.html`          |
-| Family Tree terms of use   | `/legal-policies/clan/terms.html`            |
+| Family Tree product page   | `/products/familytree/`                      |
+| Family Tree privacy policy | `/legal-policies/familytree/privacy.html`    |
+| Family Tree terms of use   | `/legal-policies/familytree/terms.html`      |
 
 For each new product, mirror the structure under
 `/products/<slug>/` and `/legal-policies/<slug>/`.

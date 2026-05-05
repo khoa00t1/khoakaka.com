@@ -9,16 +9,16 @@
 # Leave URLs blank ("") until you have public links to publish.
 # ----------------------------------------------------------------------
 
-- slug: clan
+- slug: familytree
   name: Family Tree
   internal_name: Clan
   tagline: Genealogy for extended families
   description: >-
       Build, manage, and share your family tree. Members, relationships,
       a tree view, multilingual UI, and CSV import — on Android, iOS and Web.
-  url: /products/clan/
-  icon: /assets/images/giapha-icon.svg
-  hero_image: /assets/images/giapha-hero.svg
+  url: /products/familytree/
+  icon: /assets/images/familytree-icon.svg
+  hero_image: /assets/images/familytree-hero.svg
   platforms:
       - Android
       - iOS

@@ -31,7 +31,8 @@ jobs:
               with:
                   ruby-version: "3.3"
                   bundler-cache: true
-                  cache-version: 0
+                  # Bust stale vendor/bundle cache from pre-Jekyll-3.10 resolves.
+                  cache-version: 1
 
             - name: Setup Pages
               id: pages

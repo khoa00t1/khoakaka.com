@@ -1,11 +1,9 @@
 source "https://rubygems.org"
 
-# GitHub Pages keeps Jekyll and its dependencies pinned for compatibility.
-# See https://pages.github.com/versions/ for the current matrix.
-gem "github-pages", group: :jekyll_plugins
-
-# Ruby 3.0+ no longer bundles rexml; Jekyll still requires it.
-gem "rexml"
+# Match the Jekyll version GitHub Pages runs (see https://pages.github.com/versions/).
+# We pin gems directly instead of using the github-pages meta-gem so CI resolves
+# a modern Jekyll on Ruby 3.3 without stale transitive dependencies.
+gem "jekyll", "~> 3.10"
 
 group :jekyll_plugins do
     gem "jekyll-seo-tag"
@@ -13,6 +11,13 @@ group :jekyll_plugins do
     gem "jekyll-feed"
     gem "jekyll-remote-theme"
 end
+
+# Ruby 3.0+ no longer bundles these stdlib gems; Jekyll still needs them.
+gem "rexml"
+gem "webrick"
+gem "base64"
+gem "bigdecimal"
+gem "csv"
 
 # Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data gem.
 platforms :mingw, :x64_mingw, :mswin, :jruby do

@@ -6,7 +6,6 @@ vendor/
 
 # Bundler
 .bundle/
-Gemfile.lock
 
 # OS / editor
 .DS_Store

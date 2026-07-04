@@ -4,6 +4,9 @@ source "https://rubygems.org"
 # See https://pages.github.com/versions/ for the current matrix.
 gem "github-pages", group: :jekyll_plugins
 
+# Ruby 3.0+ no longer bundles rexml; Jekyll still requires it.
+gem "rexml"
+
 group :jekyll_plugins do
     gem "jekyll-seo-tag"
     gem "jekyll-sitemap"

@@ -1,10 +1,10 @@
 # ----------------------------------------------------------------------
-# Family Tree (familytree repo) — extended metadata
+# Clan Tree (familytree repo) — extended metadata
 #
 # Mirrors what the spec calls out in section 2.
 # Used by the product page for store buttons, contact, and any in-app links.
 # ----------------------------------------------------------------------
-name: Family Tree
+name: Clan Tree
 slug: familytree
 internal_name: Clan
 repo: familytree

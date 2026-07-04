@@ -1,23 +1,23 @@
 ---
 layout: legal
-title: Terms of Use — Family Tree
-description: Terms governing use of the Family Tree application.
+title: Terms of Use — Clan Tree
+description: Terms governing use of the Clan Tree application.
 permalink: /legal-policies/familytree/terms.html
 last_updated: 2026-05-03
 sitemap: true
 ---
 
-Welcome to **Family Tree** (internally **Clan**) by **Khoakaka**. These
-Terms of Use ("Terms") are the agreement between you and us when you use
-Family Tree on Android, iOS or the Web.
+Welcome to **Clan Tree** by **Khoakaka**. These Terms of Use ("Terms") are
+the agreement between you and us when you use Clan Tree on Android, iOS or
+the Web.
 
 By installing or using the app, you agree to these Terms. If you don't
-agree, please don't use Family Tree.
+agree, please don't use Clan Tree.
 
-## Who can use Family Tree
+## Who can use Clan Tree
 
 You must be at least 13 years old, or the minimum age required in your
-country, to use Family Tree.
+country, to use Clan Tree.
 
 ## Your account
 
@@ -31,7 +31,7 @@ The members, photos, notes and CSV files you add to your clan stay yours.
 You give us a limited license to host, process and display that content so
 the app can work for you and the relatives you invite.
 
-Because Family Tree is about real people, please:
+Because Clan Tree is about real people, please:
 
 * Only add information about relatives you have a right to share, and
 * Honor any request from someone in your clan to correct or remove their
@@ -41,7 +41,7 @@ Because Family Tree is about real people, please:
 
 Please don't:
 
-* Use Family Tree to break the law or harm someone's rights.
+* Use Clan Tree to break the law or harm someone's rights.
 * Upload illegal, harmful or infringing content.
 * Try to disrupt, reverse-engineer or attack the service.
 * Use the invite system to send unsolicited messages.
@@ -58,12 +58,12 @@ in your platform's account settings. Refunds follow your platform's policy.
 ## Service availability
 
 We add, change and occasionally remove features. We may also pause the app
-for maintenance. We do our best to keep Family Tree available, but we can't
+for maintenance. We do our best to keep Clan Tree available, but we can't
 guarantee uninterrupted service.
 
 ## Disclaimers
 
-Family Tree is provided **"as is" and "as available"**, without warranties
+Clan Tree is provided **"as is" and "as available"**, without warranties
 of any kind, to the maximum extent permitted by law. We don't guarantee that
 the app will be error-free or that any specific result will happen.
 
@@ -71,18 +71,18 @@ the app will be error-free or that any specific result will happen.
 
 To the maximum extent permitted by law, **Khoakaka** isn't liable for any
 indirect, incidental, special or consequential damages, or for any loss of
-data, profits or goodwill arising from your use of Family Tree.
+data, profits or goodwill arising from your use of Clan Tree.
 
 ## Ending your use
 
-You can stop using Family Tree at any time and delete your account from
+You can stop using Clan Tree at any time and delete your account from
 within the app. We may suspend or end your access if you break these Terms
 or if we need to comply with the law.
 
 ## Changes to these Terms
 
 We may update these Terms from time to time. When we do, we'll change the
-"Last updated" date at the top of this page. Continuing to use Family Tree
+"Last updated" date at the top of this page. Continuing to use Clan Tree
 after a change means you accept the new Terms.
 
 ## Contact us

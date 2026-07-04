@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Family Tree — Genealogy and clan management
+title: Clan Tree — Genealogy and clan management
 description: Manage your lineage on mobile and web. Members, tree view, sharing and more.
 product_slug: familytree
 hero_image: /assets/images/familytree-hero.svg
@@ -9,7 +9,7 @@ permalink: /products/familytree/
 
 ## Built for the whole family
 
-Family Tree (internally **Clan**) is a single Flutter app that runs on
+Clan Tree is a single Flutter app that runs on
 **Android, iOS and the Web**. Pick the device that's already in someone's hand
 and they can start adding relatives right away.
 

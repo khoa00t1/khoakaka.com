@@ -10,7 +10,7 @@
 # ----------------------------------------------------------------------
 
 - slug: familytree
-  name: Family Tree
+  name: Clan Tree
   internal_name: Clan
   tagline: Genealogy for extended families
   description: >-
@@ -24,9 +24,9 @@
       - iOS
       - Web
   play_store_url: ""
-  app_store_url: ""
+  app_store_url: "https://apps.apple.com/vn/app/clan-tree/id6775868882?l=vi"
   web_app_url: ""
-  support_email: ""
+  support_email: support@khoakaka.com
   features:
       - title: Clans and roles
         body: >-

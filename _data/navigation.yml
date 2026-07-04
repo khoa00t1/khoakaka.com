@@ -13,14 +13,16 @@ primary:
 footer:
     - title: Products
       links:
-          - title: Family Tree
+          - title: Clan Tree
             url: /products/familytree/
     - title: Legal
       links:
-          - title: Family Tree — Privacy
+          - title: Clan Tree — Privacy
             url: /legal-policies/familytree/privacy.html
-          - title: Family Tree — Terms
+          - title: Clan Tree — Terms
             url: /legal-policies/familytree/terms.html
+          - title: Clan Tree — Delete account
+            url: /legal-policies/familytree/delete-account.html
     - title: Company
       links:
           - title: About

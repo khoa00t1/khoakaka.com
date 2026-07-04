@@ -1,17 +1,16 @@
 ---
 layout: legal
-title: Privacy Policy — Family Tree
-description: How Family Tree collects, uses, and protects your data.
+title: Privacy Policy — Clan Tree
+description: How Clan Tree collects, uses, and protects your data.
 permalink: /legal-policies/familytree/privacy.html
 last_updated: 2026-05-03
 sitemap: true
 ---
 
 Building great apps starts with trust. This page explains, in plain language,
-what **Family Tree** (internally **Clan**) collects, how we use it, and the
-choices you have.
+what **Clan Tree** collects, how we use it, and the choices you have.
 
-In this policy, "we", "us" and "our" mean **Khoakaka**, the maker of Family
+In this policy, "we", "us" and "our" mean **Khoakaka**, the maker of Clan
 Tree on Android, iOS and the Web.
 
 ## What we collect
@@ -32,7 +31,7 @@ Tree on Android, iOS and the Web.
 
 We use this information only to:
 
-* Run, secure and improve Family Tree.
+* Run, secure and improve Clan Tree.
 * Sign you in and protect your account.
 * Sync your clan across your devices and the relatives you invite.
 * Answer your support requests.
@@ -73,11 +72,12 @@ You can:
     personal data within a reasonable period.
 
 If you'd rather contact us to exercise any of these rights, see
-[Contact us](#contact-us) below.
+[Contact us](#contact-us) below or our
+[account deletion page]({{ '/legal-policies/familytree/delete-account.html' | relative_url }}).
 
 ## Children
 
-Family Tree is not intended for children under 13 (or the minimum age in
+Clan Tree is not intended for children under 13 (or the minimum age in
 your country). We don't knowingly collect personal information from
 children. If you believe a child has shared information with us, contact us
 and we will remove it.

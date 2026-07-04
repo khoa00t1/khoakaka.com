@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact — Khoakaka
-description: Reach out to Khoakaka about Family Tree or any of our apps.
+description: Reach out to Khoakaka about Clan Tree or any of our apps.
 permalink: /contact/
 ---
 
@@ -20,23 +20,22 @@ permalink: /contact/
         <h2>Support</h2>
 
         {% assign familytree = site.data.familytree %}
-        {% if familytree.support_email and familytree.support_email != "" %}
+        <p>
+            Clan Tree support:
+            <a href="mailto:{{ familytree.support_email }}">{{ familytree.support_email }}</a>
+        </p>
+        {% if familytree.app_store_url and familytree.app_store_url != "" %}
             <p>
-                Family Tree support:
-                <a href="mailto:{{ familytree.support_email }}">{{ familytree.support_email }}</a>
-            </p>
-        {% else %}
-            <p>
-                A public support email will be added here once it's ready.
-                In the meantime, please reach out via your platform's app store
-                listing for Family Tree.
+                You can also leave feedback on the
+                <a href="{{ familytree.app_store_url }}" target="_blank" rel="noopener">App Store listing</a>.
             </p>
         {% endif %}
 
         <h2>Legal</h2>
         <ul>
-            <li><a href="{{ '/legal-policies/familytree/privacy.html' | relative_url }}">Family Tree — Privacy Policy</a></li>
-            <li><a href="{{ '/legal-policies/familytree/terms.html' | relative_url }}">Family Tree — Terms of Use</a></li>
+            <li><a href="{{ '/legal-policies/familytree/privacy.html' | relative_url }}">Clan Tree — Privacy Policy</a></li>
+            <li><a href="{{ '/legal-policies/familytree/terms.html' | relative_url }}">Clan Tree — Terms of Use</a></li>
+            <li><a href="{{ '/legal-policies/familytree/delete-account.html' | relative_url }}">Clan Tree — Delete account</a></li>
         </ul>
     </div>
 </section>

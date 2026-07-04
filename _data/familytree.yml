@@ -1,25 +1,26 @@
 # ----------------------------------------------------------------------
-# Family Tree (familytree repo) — extended metadata
+# Clan Tree (familytree repo) — extended metadata
 #
 # Mirrors what the spec calls out in section 2.
 # Used by the product page for store buttons, contact, and any in-app links.
 # ----------------------------------------------------------------------
-name: Family Tree
+name: Clan Tree
 slug: familytree
 internal_name: Clan
 repo: familytree
 
 # Public links — fill in once available
 play_store_url: ""
-app_store_url: ""
+app_store_url: "https://apps.apple.com/vn/app/clan-tree/id6775868882"
 web_app_url: ""
 
 # Public support contact only — never paste private credentials here
-support_email: ""
+support_email: support@khoakaka.com
 
 # In-app legal URLs (must match permalinks of the legal pages)
 privacy_url: /legal-policies/familytree/privacy.html
 terms_url: /legal-policies/familytree/terms.html
+delete_account_url: /legal-policies/familytree/delete-account.html
 
 # Stack (for the About page or product details)
 stack:

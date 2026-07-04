@@ -3,7 +3,7 @@ layout: product
 title: Clan Tree — Genealogy and clan management
 description: Manage your lineage on mobile and web. Members, tree view, sharing and more.
 product_slug: familytree
-hero_image: /assets/images/familytree-hero.svg
+hero_image: /assets/images/clantree-hero.jpg
 permalink: /products/familytree/
 ---
 

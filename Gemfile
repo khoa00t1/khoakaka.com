@@ -4,6 +4,7 @@ source "https://rubygems.org"
 # We pin gems directly instead of using the github-pages meta-gem so CI resolves
 # a modern Jekyll on Ruby 3.3 without stale transitive dependencies.
 gem "jekyll", "~> 3.10"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
     gem "jekyll-seo-tag"

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact — Khoakaka
-description: Reach out to Khoakaka about Clan Tree or any of our apps.
+title: Contact — Khoakaka Studio
+description: Reach out to Khoakaka Studio about Clan Tree or any of our apps.
 permalink: /contact/
 ---
 

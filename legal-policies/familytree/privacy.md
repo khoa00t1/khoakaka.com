@@ -10,7 +10,7 @@ sitemap: true
 Building great apps starts with trust. This page explains, in plain language,
 what **Clan Tree** collects, how we use it, and the choices you have.
 
-In this policy, "we", "us" and "our" mean **Khoakaka**, the maker of Clan
+In this policy, "we", "us" and "our" mean **Khoakaka Studio**, the maker of Clan
 Tree on Android, iOS and the Web.
 
 ## What we collect

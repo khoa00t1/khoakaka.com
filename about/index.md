@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About — Khoakaka
-description: Khoakaka builds focused mobile apps that quietly do a lot of work for you.
+title: About — Khoakaka Studio
+description: Khoakaka Studio builds focused mobile apps that quietly do a lot of work for you.
 permalink: /about/
 ---
 

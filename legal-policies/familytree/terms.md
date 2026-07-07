@@ -7,7 +7,7 @@ last_updated: 2026-05-03
 sitemap: true
 ---
 
-Welcome to **Clan Tree** by **Khoakaka**. These Terms of Use ("Terms") are
+Welcome to **Clan Tree** by **Khoakaka Studio**. These Terms of Use ("Terms") are
 the agreement between you and us when you use Clan Tree on Android, iOS or
 the Web.
 
@@ -69,7 +69,7 @@ the app will be error-free or that any specific result will happen.
 
 ## Limitation of liability
 
-To the maximum extent permitted by law, **Khoakaka** isn't liable for any
+To the maximum extent permitted by law, **Khoakaka Studio** isn't liable for any
 indirect, incidental, special or consequential damages, or for any loss of
 data, profits or goodwill arising from your use of Clan Tree.
 

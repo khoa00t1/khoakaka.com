@@ -1,17 +1,17 @@
 # ----------------------------------------------------------------------
 # Site identity
 # ----------------------------------------------------------------------
-title: Khoakaka
+title: Khoakaka Studio
 tagline: Smart Code, Happy Life
 motto: Keep Automating, Keep Advancing
 description: >-
-    Smart Code, Happy Life — mobile apps and tools by Khoakaka, including
+    Smart Code, Happy Life — mobile apps and tools by Khoakaka Studio, including
     Clan Tree, the genealogy app for extended families and clans.
 url: "https://khoakaka.com"
 baseurl: ""
 
 author:
-    name: Khoakaka
+    name: Khoakaka Studio
     email: ""
 
 lang: en
@@ -85,5 +85,5 @@ twitter:
     card: summary_large_image
 
 social:
-    name: Khoakaka
+    name: Khoakaka Studio
     links: []
